@@ -30,7 +30,7 @@ while True:
             logging.error("Incorrect number.")
             continue
         print("Выберите вашу фигуру: 1 - Конь, 2 - Слон, 3 - Ладья, 4 - Ферзь")
-        fig = int(input("Ваша фигруа: "))
+        fig = int(input("Ваша фигура: "))
         logging.info(f"Users entered figure: {fig}")
 #1 - конь, 2 - слон, 3 - ладья, 4 - ферзь
         if fig < 0 or fig > 4:
